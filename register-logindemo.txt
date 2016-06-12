@@ -1,0 +1,18 @@
+Register:
+<input id="name" type="text"/>
+<input id="password" type="password"/>
+<input id="email" type="text"/>
+<a href="javascript:register()">Register</a>
+function register(){
+jsp.sendname=document.getElementById("name").value;
+jsp.sendemail=document.getElementById("email").value;
+jsp.sendpassword=hash(document.getElementById("password").value + jsp.recievesalt());
+}
+Login:
+<input id="email" type="text"/>
+<input id="password" type="password"/>
+<a href="javascript:login()">login</a>
+function login(){
+jsp.sendemail=document.getElementById("email").value;
+jsp.sendpassword=hash(document.getElementById("password").value + jsp.recievesalt());
+}
