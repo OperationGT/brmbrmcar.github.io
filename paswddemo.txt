@@ -1,0 +1,12 @@
+<!-- the file would list passwords like below, these are just examples with the username as password -->
+<!-- the salt is $u: then the number in order from when the user registered -->
+(
+user: brmbrmcar
+salt: $u:1
+hash: ee3965a417f1c7623084ef7011c5db8ccf7db1b3c34f6d4ec9d0f958660a36cbc1ac4a0491e727d14a782586c9ef0c2d9e96c118234904f86d580b4edab8988b
+)
+(
+user: OperationGT
+salt: $u:2
+hash: 6e6ac396b338674e783a9ac05b7e33d02bd68f9a9b28e34ed253a49fc8995093044eeecda8ba9e0ac9e72013a8af1edf1ed016c691d0b45d21f706ea3ff3d242
+)
