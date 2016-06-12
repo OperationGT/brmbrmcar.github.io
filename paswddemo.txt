@@ -1,6 +1,6 @@
 <!-- the file would list passwords like below, these are just examples with the username as password -->
 <!-- the salt is $u: then the number in order from when the user registered -->
-<!-- the hash is generated on the user end, so the username is just for ease here -->
+<!-- the hash is generated on the user end, so the username and salt is just for ease here -->
 (
 user: brmbrmcar
 salt: $u:1
